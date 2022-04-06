@@ -1,0 +1,88 @@
+/* Colors and fonts */
+body{
+	background-color: rgb(230, 230, 230);
+	color: #575F7D;
+	font-family: 'Boogaloo', cursive;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: center;	
+}
+h1, h2, h3 {
+	font-family: 'Caveat Brush', cursive;
+}
+h1 {
+	color: #575F7D;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color: #CE49BF;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: #39AEA9;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: #ECA6A6;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+		background-color: lightpink;
+	}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+		background-color: lightskyblue;
+	}
+
+}
+
+}
+.btn-blue {
+	background-color: lightgoldenrodyellow;
+	padding: 12px 20px;
+	border-radius: 12px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#pfp {
+	border-radius: 50%;
+}
+
+#paragraph {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
